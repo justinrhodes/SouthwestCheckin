@@ -1,0 +1,2 @@
+Paste the headers for the request to https://www.southwest.com/api/air-checkin/v1/air-checkin/page/air/check-in/review into this file.
+No need to copy/paste only the correct headers, the script will pull out the right ones.
