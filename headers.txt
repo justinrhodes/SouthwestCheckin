@@ -1,2 +1,31 @@
-Paste the headers for the request to https://www.southwest.com/api/air-checkin/v1/air-checkin/page/air/check-in/review into this file.
-No need to copy/paste only the correct headers, the script will pull out the right ones.
+Copy and paste the headers for the request to https://www.southwest.com/api/air-checkin/v1/air-checkin/page/air/check-in/review into this file.
+No need to copy/paste only the correct headers, you can paste it wholesale and the script will pull out the right ones.
+Example included below, but yours will be different.
+
+POST /api/air-checkin/v1/air-checkin/page/air/check-in/review HTTP/2
+Host: www.southwest.com
+Cookie: at_check=trBB%5D%5D
+Content-Length: 200
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="92"
+X-User-Experience-Id: 9723ece8a9
+Ee30zvqlwf-Z: q
+Authorization: null null
+Ee30zvqlwf-B: rqc2
+X-Api-Idtoken: null
+Ee30zvqlwf-D: ABaChIjpJmBDgDuhCiIJF-DMQAAAABbNV-BAI8T3EtMXeo8a4daqL7RDNs
+Ee30zvqlwf-C: AGBCZNjxZn_DwXk3nHEIgkX4Mx
+Ee30zvqlwf-A0: u2szS6KV6Nn2o=WECCD3sO92VPHHnHjnZUoPs9U1sYPrSfpZcGIXKx9SYF3-wE6BIfQcV8qoXWSC3RYULn01olz
+Ee30zvqlwf-F: A1QJZtZ7AQAAr5fAAx2bzuAUwOdaGuctWowH8AAEB3AAAAAA==
+X-Channel-Id: southwest
+X-App-Id: air-check-in
+Ee30zvqlwf-A: -cb=zvrQ4vNOOzdDrOcd-rvMYxGyqMiDKYm9uV5m-C7lfNCLyBciVGLyQs2GEynujrZIOVgTRklZ-2bJHUwcMU2Yc5d2w=aIh4B1E9yTmKxHMqDWf2q1XUbsXQqPlykuMcTNspRBqKywmK=kQJJG9mIMcwiW9MU_PSu0VQW8XjrS6vg=drqWfoxq-KN8YpZVASLDyYDwPB5SN5c32v0H38kbFWnAGY6cCW38SP8T=KfnycXHA89DHdj9wQuEuv-oXd-sfqaUXHo0SXH9A_pgYN3pbHnLdAUbyKeqbrWs_WmGydGyi2VhwQDUK8uXR0DKdaFfGSM-Ku2flRxZ4ToFH9eCl2JJQ7O7N5M1wJ8C3SLO0zheklfS_D_CAx7xQXTAnXGonL=x0Evf8uQu=Z28O8RWXpHuYJ1ScRgrPeIZ7VzOeduIi4OkqA1E6mwJN3mT7s9rnjUeaJ=z06OT2RPcLmLdBzo4-=D_=TKqWb_dVlQFPTfHGhezQe2px_bbf6EC6vkHqXT4Gdeo9xZrvQSI8oJXHeEaYKEvfD_iSDDCx8RTFTcyCveSarBrqrzjEVMAgw0d_=6CVaLp24agGmU3cPo7xTqIxaKzOf8jf8v8sxnrpSC8eRY1Ve6=QAdsldhrYfmRbm1kFDYl3oLHPfojnncuTS_yo0BjaV9ABQYPXjeDYqxWIPNLmyKY31lxEgfeZjWMy_Ia07pzQUBAOXNHgj7VsEPSx5wDKdMz-_YxsOasxq4MD8=0F6uhGxvTSQVcrgV6E5cCG5i3=1aU=p9hgfdnH9kqAMGoqIwey_aLh=RU2MD=N9FnU7o1zvEXWJf8_MA57hlMxxw172-nM7x3dqaeE9pjw83BWJS2UEKLnMlpNy3CbU-1q8TgdHpdwLdhHZrCEQoLMWYj9rGnyWl31sZIcPaP6AHmSU3hyKbGn2h-_MiariAbS5XJbHAr4_v0cCH0zPLvuEPoW0CsUn9e21_99jL=mxXQoqqccOy2II1u1u4wIrCzTYTa-wMSkWhoQ5SNACZrKNN0YwTKqkz_gGniI0LZq=Bb4d8A1RVjBmGXGmIcAs7Jc4LErmgKcojKvL7qMUgpVCMfGDS5DxT5kUlEPoV-wWsmz1OXf2gwndgN31pyShj=YEXi8BVkgiIjMFAm2==S6-nx2E1HAmRH=41LigIClJC83I-oYRFV9VOCiPR8LZsXhvDdPuTnQRNfMyzM8wwiDjxz=T4AGzUAVpslC5-JZwGp3h7C0AXm2-DfUlDVT8XK1i5kq7CqMHS9K2pgTs87pS4O4=nCXY7bOZid=czIjSC_Mce0g=4jIhM8V=yRgj6WD6nw_3KEqFdaWU0beWUF2zNmy4r-d=csZIFACusgjaFSIcz=Q6Ao4YDRu2VBSwX9R1PVKGI9sURVdB88S96Ga5-hbuuaSdAXrc6LIKRl25=x_crWu8W2GsafjUyJm6clqq7KqupTf8oON6yRoowQvuy8rOTPg_OJ-jnrUORZ3WvWjehYivV=DX3uX9xIFkXf_oq4F6bGzmgKZ9Frs9J9KBgT460M1gkqQrTuDS0M5JojYPjffZPIlaWlC873K2HI3HFwSPeArEWcpGe=mZmW0LQlyHkC4djBb4TmRY3XeAIYVhsb2rX4F9hKQOSk5oYcp0Ae38AEBqvoNYmNxfldH6FaBE=1M_aRGwJ0GsMj7l0iMrdhCe1pvQrb0cw6yV629xge301VmlMjHx3ZRC8k=4LpF7pvASTw6U4EMkFGNzU2M0phZEA=x6KM-EWdhKkH2D=C=GzO8xdzIKKCqDmVx8IhHx3VOk_Caj9QOjfWwbSjUbne-NFA1ULvqM8Q3Bkp9voThGwW7uJn_=rQCKl930pENGYfRgOf5NU1byGCyj470jMzP1c3J38HwYic8_70pVgysdV=PdxfuTHnoNg=RrV1KhuFxQZJoodccVwewZud-ZC1x0=MmnuiqRRIOxIxTWgCohkWvJgPPi=7VhFPw5zpzQ3i5JjKMyZsGGi_dRNpaq3yBqFr8P4Buw254qBxn2povc6R-WLZSY=gm=iEPKsSFBbpFauvom7El9m-OkWCWS3pya2Rif=LjNMIWfXQspi53vB0KbZgB8631ne4Nz_8nhR4-nvyTDqS2ugghOihdLCMhrVw55_6F8RTH7ik0OjqAjiKQbusyl=i=UboLIby9B4sWA7dYiu-vkBJQCvWJyHlz0E9_OhJAGJ1boUusAOyNlDdb5mWQ7hGMyKBTKAin235Jq_MvfT1_5KBaSzLX9=67sCUPr1HUjlO-_7mM4hAsLJCx7o1KVFzgviJ4VRJ=HmJ=-AyyqmXzoyS8s7jhnzMTAjzP3OmUy69eJE3lcaV8aZsN0rh_H6sq49x_iBFMLrkEKkoEo_lSaR6ZrLQSM9L=VRHy9=sUfr7HTyzaNag4flxPjcFXgscqAsCwALw8og6eIvpyo-CVKGPl1rJls4rCR_lYLN9EE_b3YcHkEb23Ih9dPySVZvpRB-wleWz6H3E4UzZGaSC0zCzi9B08I6nGFWLUgjunkRz1fo6hge8WBwTcNjPOGnx=M0KlOYoVswcVGkODJvoLJ7QNGuQjJ1K
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Api-Key: l7xx9441c4c
+Origin: https://www.southwest.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.southwest.com/air/check-in/index.html?clk=HOME-BOOKING-WIDGET
