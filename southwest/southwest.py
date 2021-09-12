@@ -29,7 +29,7 @@ class Reservation():
 
         USER_EXPERIENCE_KEY = str(uuid.uuid1()).upper()
         # Pulled from proxying the Southwest iOS App
-        headers = {'Host': 'mobile.southwest.com', 'Content-Type': 'application/json', 'X-API-Key': API_KEY, 'X-User-Experience-Id': USER_EXPERIENCE_KEY, 'Accept': '*/*', 'X-Channel-ID': 'MWEB'}
+        headers = {'Host': 'mobile.southwest.com', 'Content-Type': 'application/json', 'X-API-Key': API_KEY, 'X-User-Experience-Id': USER_EXPERIENCE_KEY, 'Accept': '*/*', 'X-Channel-ID': 'MWEB', 'User-Agent': '.'}
 		
         headers_file = open('headers.txt', 'r')
         lines = headers_file.readlines()
@@ -39,7 +39,6 @@ class Reservation():
                 name = name.lower()
                 if 'ee30zvqlwf' in name:
                     headers[name] = value
-		
         return headers
 
     # You might ask yourself, "Why the hell does this exist?"
